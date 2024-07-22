@@ -5,7 +5,7 @@ export const Appbar =()=>{
     const navigate=useNavigate();
     return <div className="border-b flex justify-between px-10 py-4">
         <Link to={"/blogs"} className="flex justify-center flex-col">
-            ThoughEcho
+            ThoughtEcho
         </Link>
         <div>
             <Link to="/publish">

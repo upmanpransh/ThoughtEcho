@@ -23,7 +23,10 @@ export const Auth = ({type}:{type:"signup"|"signin"})=>{
         }
     }
 
-    return <div className="h-screen flex justify-center flex-col">
+    return <div>
+        <div className="ml-3 mt-1 text-lg font-semibold"> 
+        ThoughtEcho</div>
+        <div className="h-screen flex justify-center flex-col">
         <div className="flex justify-center">
             <div>
                 <div className="text-center px-10">
@@ -58,6 +61,7 @@ export const Auth = ({type}:{type:"signup"|"signin"})=>{
 
         </div>
     </div>
+</div>
 }
 
 interface LabelledInputType{
