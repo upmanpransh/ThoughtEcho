@@ -5,7 +5,7 @@ import { BACKEND_URL } from "../config";
 export interface Blog{
     "content":string;
     "title":string;
-    "id":number
+    "id":number;
     "author":{
         "name":string;
     }
@@ -13,7 +13,7 @@ export interface Blog{
 
 export const useBlog=({id}:{id:string})=>{
     const[loading,setLoading]=useState(true);
-    const[blog,setBlog]=useState<Blog[]>([]);
+    const[blog,setBlog]=useState<Blog>();
 
     useEffect(()=>{
         const fetchBlogs=async()=>{
