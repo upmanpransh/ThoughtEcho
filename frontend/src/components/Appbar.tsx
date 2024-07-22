@@ -1,6 +1,5 @@
 import { Avatar } from "./BlogCard"
 import { Link } from "react-router-dom"
-import { ProfileHover } from "./profilehover"
 import { useNavigate } from "react-router-dom"
 export const Appbar =()=>{
     const navigate=useNavigate();
